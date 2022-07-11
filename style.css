@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+.navbar{
+    background-color: #000;
+    font-size: 1em;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-toggler{
+    border: 1px solid rgb(237, 14, 14);
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28237, 14, 14, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+
+
+.navbar-brand, .nav-link{
+    color: #ED0E0E;
+}
+
+.nav-link:hover,
+.navbar-brand:hover{
+    color: #fff;
+}
+
+
+.bg{
+    width: 100%;
+    background-image: url(img/background2.jpg);
+    height: calc(100vh - 60px);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.bg .container{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.text{
+    color: rgb(237, 14, 14);
+    background-color: rgba(1, 1, 1, 0.69);
+    padding: 100px;
+    margin: auto;
+}
+
+.text h1{
+    text-align: center;
+    color: #fff;
+}
+
+.text h2{
+    text-align: center;
+
+    font-size: 2em;
+}
+
+.carrusel-title, .title{
+    text-align: center;
+    padding: 70px 0 40px 0;
+    color: rgb(237, 14, 14);
+}
+
+.carrusel-list{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.container .row .col-sm-12{
+    margin: auto;
+}
+
+.otherHobbies-title{
+    text-align: center;
+    padding: 70px 0px 50px 0;
+    color: rgb(237, 14, 14);
+}
+
+.otherHobbies{
+    display: flex;
+    justify-content: space-arround;
+    flex-wrap: wrap;
+    padding-bottom: 140px;
+}
+
+.otherHobbies .card{
+    margin: 10px auto;
+    padding: 10px;
+    background: #fff;
+}
+
+.otherHobbies .card h2{
+    text-align: center;
+    color: rgb(237, 14, 14);
+}
+
+
+.ask__me{
+    background-color: aqua;
+    background-image: url(img/formbackground.png);
+    height: calc(100vh - 60px);
+    padding-top: 50px;
+    display: flex;
+}
+
+.ask__me .container{
+    background-color: rgba(1, 1, 1, 0.69);
+    height: 450px;
+    max-width: 800px;
+    padding: 25px;
+}
+
+.ask__me .container h2{
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+}
+
+
+.ask__me .container input, 
+.ask__me .container textarea, 
+.ask__me .container input::placeholder,
+.ask__me .container textarea::placeholder{
+    color: rgb(237, 14, 14);;
+}
+
+.ask__me .container button{
+    color: #fff;
+    background-color: rgb(237, 14, 14);
+}
+
+
+footer{
+    padding: 40px;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+
+.socialMedia a{
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+
+.copyright h2{
+    text-align: center;
+    color: rgb(237, 14, 14);
+    font-size: 1.2em;
+}
